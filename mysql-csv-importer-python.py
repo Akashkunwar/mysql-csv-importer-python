@@ -2,11 +2,9 @@
 !pip install pymysql --q
 
 # CSV to DB
-## Airtable to DB
 # Importing liberaries
 import pymysql
 import pandas as pd
-from airtable import Airtable
 import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
