@@ -33,8 +33,8 @@ conn = pymysql.connect(user='Your_username',
                        password='GXXXXXXXXXXXXXXXXG',
                        database='Your_DataBase_Name',
                        connect_timeout=6000,
-                       host='mysql-123.mysql.database.gcp.com',
-                       ssl={'ca': '/content/DigiCertGlobalRootCA.crt.pem'})
+                       host='mysql_host_name',
+                       ssl={'ca': 'your_mysql_cert_path'})
 
 # Try to create the table
 try:
